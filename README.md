@@ -2,7 +2,7 @@
 
 A custom Home Assistant integration that allows you to record and display satellite data. This is an attempt to add functionality similar to [Raspberry NOAA V2](https://github.com/jekhokie/raspberry-noaa-v2).
 
-**Disclaimer:** This project is in active development and many of the advertised features are not working or not implemented yet. Do not install this on your HA server a relece is available.
+**Disclaimer:** This project is under development and many of the advertised features are not working or not implemented yet. Do not install this on your HA server until a release is available.
 
 
 # Features
