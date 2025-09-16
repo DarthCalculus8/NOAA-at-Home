@@ -1,6 +1,6 @@
 import requests
 import logging
-#import predict
+import predict
 import subprocess
 
 import custom_components.noaa_at_home.utils
@@ -145,4 +145,5 @@ class Sat_Settings:
     sat_enable_bias_tee: bool
     sat_gain: float
     sat_sun_min_elevation: int
+
     sat_sat_min_elevation: int
