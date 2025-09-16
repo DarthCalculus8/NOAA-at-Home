@@ -18,8 +18,7 @@ A custom Home Assistant integration to allows you to record and display satellit
 **get_tle**
 
   Downloads TLEs for weather and amateur satellites from Celestrak and updates local files.
- 
- 
+<br>
 **schedule_passes**
 
   Schedules passes to be recorded for the selected satellite
