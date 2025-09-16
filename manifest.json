@@ -1,0 +1,8 @@
+{
+  "domain": "noaa_at_home",
+  "name": "NOAA at Home",
+  "version": "0.0.0",
+  "requirements": [
+        "pypredict"
+      ]
+}

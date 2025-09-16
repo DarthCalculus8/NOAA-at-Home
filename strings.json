@@ -1,0 +1,24 @@
+{
+  "selector": {
+    "satellite": {
+      "options": {
+        "ALL": "ALL"
+      }
+    }
+  },
+  "services": {
+    "schedule_passes": {
+      "name": "Schedule Passes",
+      "description": "Schedules passes for the selected satellite",
+      "fields": {
+        "satellite": {
+          "name": "Satellite",
+          "description": "The satellite to schedule passes for"
+        }
+      }
+    },
+    "update_tle": {
+      "name": "Update TLE",
+      "description": "Updates the TLE files"
+  }
+}

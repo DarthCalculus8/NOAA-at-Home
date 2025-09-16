@@ -1,0 +1,6 @@
+{
+  "services": {
+    "update_tle": {"service": "mdi:orbit"},
+    "schedule_passes": {"service": "mdi:satellite-variant"}
+  }
+}

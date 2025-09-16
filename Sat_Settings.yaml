@@ -1,0 +1,29 @@
+#   sat_name - Name of the satellite as found in the TLE files
+#   sat_sdr_device_id - Device ID of the SDR device to be used for recording for the satellite
+#   sat_record_freq - Frequency to record at for the pass (hz)
+#   sat_freq_offset - Receiver frequency offset (PPM) for the satellite capture (hz)
+#   sat_enable_bias_tee - Whether to enable bias tee for the recording of the satellite
+#   sat_gain - Gain setting for specific satellite captures
+#   sat_sun_min_elevation - Threshold for sun elevation for specific satellite captures
+#   sat_sat_min_elevation - Threshold for sat elevation for specific satellite captures
+
+---
+sat_name: "METEOR-M2 3"
+sat_sdr_device_id: 0
+sat_record_freq: 137900000
+sat_freq_offset: 0
+sat_enable_bias_tee: false
+sat_gain: 0.0
+sat_sun_min_elevation: 6
+sat_sat_min_elevation: 30
+...
+---
+sat_name: "METEOR-M2 4"
+sat_sdr_device_id: 0
+sat_record_freq: 137900000
+sat_freq_offset: 0
+sat_enable_bias_tee: false
+sat_gain: 0.0
+sat_sun_min_elevation: 6
+sat_sat_min_elevation: 30
+...

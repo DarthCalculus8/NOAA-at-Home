@@ -1,0 +1,22 @@
+# DO NOT MODIFY THIS FILE!
+
+
+update_tle:
+  name: Update TLE
+  description: Updates the TLE files
+
+schedule_passes:
+  name: Schedule Passes
+  description: Schedules passes for the selected satellite
+  fields:
+    satellite:
+      name: Satellite
+      description: The satellite to schedule passes for
+      required: true
+      selector:
+        select:
+          options:
+            - "ALL"
+
+
+

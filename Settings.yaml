@@ -1,0 +1,30 @@
+---
+# base station configurations
+#   latitude: south values are negative
+#   longitude: west values are negative
+latitude: 0.0
+longitude: 0.0
+altitude: 0
+
+# receiver settings
+#   receiver_type - the receiver type which program uses ('rtlsdr', 'airspy_mini', 'airspy_r2', 'airspy_hf_plus_discovery', 'hackrf', 'sdrplay' or 'mirisdr')
+#   noaa_decoder - which receiver method to use (either 'wxtoimg' or 'satdump')
+#   meteor_decoder - which receiver method to use (either 'meteordemod' or 'satdump')
+receiver_type: "rtlsdr"
+
+# how many days to schedule passes
+# Passes will be scheduled until midnight of the final day (the current day counts)
+days_to_schedule_passes: 7
+
+# push processing settings for sending images elsewhere
+#   enable_email_push - whether to send all images to an external email
+#   enable_email_schedule_push - whether to email a list of dayly passes to the email destination
+#   email_push_address - if enabled, address to send all images to
+#   enable_discord_push - whether to push images to a Discord channel
+#   discord_webhook_url - webhook url for the Discord channel
+enable_email_push: false
+email_push_address: "test@gmail.com"
+enable_email_schedule_push: false
+enable_discord_push: false
+discord_webhook_url: "https://discord.com/api/webhooks/xxx"
+...
