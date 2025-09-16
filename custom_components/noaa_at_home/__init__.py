@@ -106,13 +106,11 @@ def setup(hass, config):
 
             _LOGGER.info(f"Found TLE:\n{tle}")
 
-            #nth_day = datetime.now() + datetime.timedelta(days=settings.days_to_schedule_passes - 1)
+            nth_day = datetime.now() + datetime.timedelta(days=settings.days_to_schedule_passes - 1)
 
-            #passes = predict.transits(tle, (settings.latitude, settings.longitude, settings.altitude), datetime.now().timestamp(), datetime.datetime(nth_day.year, nth_day.month, nth_day.day).timestamp())
+            passes = predict.transits(tle, (settings.latitude, settings.longitude, settings.altitude), datetime.now().timestamp(), datetime.datetime(nth_day.year, nth_day.month, nth_day.day).timestamp())
 
-            #_LOGGER.info(f"Found {len(passes)} passes")
-
-            _LOGGER.info(subprocess.run(["at", "-l"]))
+            _LOGGER.info(f"Found {len(passes)} passes")
 
 
     hass.services.register(DOMAIN, "schedule_passes", schedule_passes)
