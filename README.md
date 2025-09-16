@@ -1,6 +1,6 @@
 # NOAA-at-Home
 
-A custom Home Assistant integration to allows you to record and display satellite data. This is an attempt to add functionality similar to [Raspberry NOAA V2](https://github.com/jekhokie/raspberry-noaa-v2).
+A custom Home Assistant integration that allows you to record and display satellite data. This is an attempt to add functionality similar to [Raspberry NOAA V2](https://github.com/jekhokie/raspberry-noaa-v2).
 
 **Disclaimer:** This project is in active development and many of the advertised features are not working or not implemented yet.
 
